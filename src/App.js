@@ -14,9 +14,9 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar />
-          <br/><br/><br/>
-          
-          <h1>Joole</h1>
+          <br/>
+        <img id="logo3" src={require('./picture/JLogo.png')} />
+         <br/><br/>
           <h2>Building Product Selection Platform</h2>
           <Route exact path="/" component={Login} />
           <Route exact path="/register" component={Register} />
